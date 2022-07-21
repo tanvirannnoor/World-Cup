@@ -1,6 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/*-----------------------------
+Banner section DEsign
+------------------------------ */
 .banner-section{
     background-color: black;
     display: flex;
@@ -38,6 +42,20 @@ body{
     padding: 2%;
 }
 
+/* Add Animation */
+.banner-info p:hover{
+    color: red;
+}
+
+.watch-live:hover{
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*-----------------------------
+Grid and Flex Section Design
+------------------------------ */
 .second-section{
     display: flex;
     margin-left: 10%;
@@ -140,6 +158,8 @@ body{
     text-align: center;
 }
 
+
+/* This Section is hidden from mobile and PC view */
 .show{
     visibility: hidden;
 }
@@ -171,8 +191,11 @@ hr{
     
     
 }
+/*-----------------------------
+Media Query section
+------------------------------ */
 
-
+/* Mobile View */
 @media only screen and (max-width: 688px) { 
 
     .banner-section{
@@ -248,7 +271,7 @@ hr{
 
 }
 
-
+/* Tablet View */
 @media only screen and (min-width: 689px) and (max-width: 992px){
 
     .banner-section{
@@ -307,7 +330,7 @@ hr{
     .blog{
         background-color: red;
     }
-
+/* This is visible only in Tab view */
     .show{
         visibility: visible;
     }
